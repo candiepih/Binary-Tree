@@ -115,3 +115,35 @@ function that measures the height of a binary tree
 
 function that measures the depth of a node in a binary tree
 
+[11-binary_tree_size.c](../master/11-binary_tree_size.c)
+
+function that measures the size of a binary tree
+
+[12-binary_tree_leaves.c](../master/12-binary_tree_leaves.c)
+
+function that counts the leaves in a binary tree
+
+[13-binary_tree_nodes.c](../master/13-binary_tree_nodes.c)
+
+function that counts the nodes with at least 1 child in a binary tree
+
+[14-binary_tree_balance.c](../master/14-binary_tree_balance.c)
+
+function that measures the balance factor of a binary tree
+
+[15-binary_tree_is_full.c](../master/15-binary_tree_is_full.c)
+
+function that checks if a binary tree is full
+
+[16-binary_tree_is_perfect.c](../master/16-binary_tree_is_perfect.c)
+
+function that checks if a binary tree is perfect
+
+[17-binary_tree_sibling.c](../master/17-binary_tree_sibling.c)
+
+function that finds the sibling of a node
+
+[18-binary_tree_uncle.c](../master/18-binary_tree_uncle.c)
+
+function that finds the uncle of a node
+
