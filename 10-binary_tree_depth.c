@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * bnary_tree_is_root - checks if a certain node is root node
+ * binary_tree_is_root - checks if a certain node is root node
  * @node: node to check
  * Return: nothing
  */
-int bnary_tree_is_root(const binary_tree_t *node)
+int binary_tree_is_root(const binary_tree_t *node)
 {
 	if (!node)
 		return (0);
@@ -21,7 +21,7 @@ int bnary_tree_is_root(const binary_tree_t *node)
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
-	if (!tree || bnary_tree_is_root(tree))
+	if (!tree || binary_tree_is_root(tree))
 		return (0);
 	return (1 + binary_tree_depth(tree->parent));
 }
