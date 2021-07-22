@@ -21,12 +21,14 @@ int binary_tree_is_leaf(const binary_tree_t *node)
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
+	int left, right;
+
 	if (!tree)
 		return (0);
 	if (binary_tree_is_leaf(tree))
 		return (1);
-	int left = binary_tree_is_full(tree->left);
-	int right = binary_tree_is_full(tree->right);
+	left = binary_tree_is_full(tree->left);
+	right = binary_tree_is_full(tree->right);
 
 	return (left && right);
 }
